@@ -3,11 +3,12 @@ package com.sebastian.springcloud.msvc.items.services;
 import com.sebastian.springcloud.msvc.items.clients.ProductFeignClient;
 import com.sebastian.springcloud.msvc.items.models.Item;
 import feign.FeignException;
-import feign.Response;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.List;
+import java.util.Optional;
+import java.util.Random;
+
 
 @Service
 public class ItemServiceImpl implements ItemService {

@@ -1,4 +1,4 @@
-package com.sebastian.springcloud.msvc.items;
+package com.sebastian.springcloud.msvc.items.clients;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -15,6 +15,6 @@ public class WebClientConfig {
     @Bean
     @LoadBalanced
     WebClient.Builder webClientBuilder() {
-        return WebClient.builder().baseUrl("http://product-service/products");
+        return WebClient.builder().baseUrl(url);
     }
 }
