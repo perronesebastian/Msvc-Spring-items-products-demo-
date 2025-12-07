@@ -1,4 +1,4 @@
-package com.sebastian.springcloud.msvc.items.clients;
+package com.sebastian.springcloud.msvc.items.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;

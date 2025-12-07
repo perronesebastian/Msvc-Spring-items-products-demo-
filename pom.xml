@@ -13,6 +13,7 @@
         <module>msvc-products/msvc-products</module>
         <module>msvc-items/msvc-items</module>
         <module>eureka-server/eureka-server</module>
+        <module>gateway-server/gateway-server</module>
     </modules>
 
     <parent>
