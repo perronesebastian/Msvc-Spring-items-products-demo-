@@ -1,6 +1,6 @@
 package com.sebastian.springcloud.msvc.products.repositories;
 
-import com.sebastian.springcloud.msvc.products.entities.Product;
+import com.sebastian.springcloud.libs.msvc.commons.entities.Product;
 import org.springframework.data.repository.CrudRepository;
 
 

@@ -11,6 +11,7 @@
         <module name="config-server" />
         <module name="msvc-products" />
         <module name="eureka-server" />
+        <module name="msvc-commons" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
+      <module name="msvc-commons" options="-parameters" />
       <module name="msvc-items" options="-parameters" />
       <module name="msvc-products" options="-parameters" />
     </option>

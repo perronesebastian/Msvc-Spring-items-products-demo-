@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Random;
 
-
 @Service
 public class ItemServiceImpl implements ItemService {
     final private ProductFeignClient client;
@@ -32,5 +31,22 @@ public class ItemServiceImpl implements ItemService {
         } catch (FeignException e) {
             return Optional.empty();
         }
+    }
+
+    @Override
+    public Item create(Item item) {
+        var result = client.create(item.getProduct());
+        return new Item(result, item.getQuantity());
+    }
+
+    @Override
+    public Item update(Long id, Item item) {
+        var result = client.update(id, item.getProduct());
+        return new Item(result, item.getQuantity());
+    }
+
+    @Override
+    public void delete(Long id) {
+        client.delete(id);
     }
 }

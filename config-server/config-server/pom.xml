@@ -10,28 +10,12 @@
         <version>1.0.0</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
+
     <artifactId>config-server</artifactId>
     <version>1.0.0</version>
     <name>config-server</name>
     <description>Config Server</description>
 
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
-	<properties>
-		<java.version>25</java.version>
-		<spring-cloud.version>2025.1.0</spring-cloud.version>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

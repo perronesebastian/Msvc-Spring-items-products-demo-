@@ -14,6 +14,7 @@
         <module>msvc-items/msvc-items</module>
         <module>eureka-server/eureka-server</module>
         <module>gateway-server/gateway-server</module>
+        <module>config-server/config-server</module>
     </modules>
 
     <parent>

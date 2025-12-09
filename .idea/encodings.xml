@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/config-server/config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-server/gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msvc-commons/msvc-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msvc-items/msvc-items/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msvc-products/msvc-products/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

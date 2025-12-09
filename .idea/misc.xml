@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud.configserver/springcloud.configserver/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/msvc-commons/msvc-commons/pom.xml" />
       </list>
     </option>
   </component>
